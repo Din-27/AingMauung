@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+body {
+    margin: 0;
+    background-image: url(img/meta.jpg);
+    background-size: 1500px;
+}
+
+nav {
+    background-color:rgba(116, 116, 116, 0.076);
+    display: flex;
+    background-position: left;
+    height: 10vh;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.829);
+}
+
+nav .kiri {
+    flex: 50%;
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+nav .kiri li {
+    display: inline;
+    margin: 0px 15px
+}
+
+nav .kiri ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 12px;
+    border-radius: 100%;
+    text-shadow:0px 0px 5px rgba(255, 255, 255, 0.829);
+}
+
+
+nav .kanan {
+    flex: 50%;
+    display: flex;
+    padding: 10px;
+    justify-content: right;
+    align-items: center;
+    padding-right: 80px;
+}
+
+nav .kanan a {
+    color: rgb(255, 255, 255);
+    padding: 8px 12px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    height: 95vh;
+    justify-content: center;
+}
+
+.container .section {
+    display: flex;
+    width: 85%;
+}
+
+.section .kiri {
+    flex: 30%;
+}
+
+.section .kanan {
+    flex: 50%;
+    padding-left: 40px;
+    padding-top: 15px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.829);
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.075);
+}
+
+.section .kanan p {
+    text-shadow:0px 0px 5px rgba(255, 255, 255, 0.829);
+    color: rgb(0, 0, 0);
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+.section .bawah {
+    display: flex;
+    color: white;
+}
+
+.section .bawah div {
+    margin-right: 20px;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 100%;
+}
+
+.skill-container div img {
+    flex: 1;
+    width: 50px;
+    height: 50px;
+}
+
+form {
+    width:280px;
+    margin: 5px auto;
+    font-size: 30px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    padding-bottom: 50px;
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.829);
+}
+
+input[type=text],input[type=email],input[type=number], select, textarea {
+    box-shadow: 0px 0px 40px black;
+    background-color: rgba(255, 255, 255, 0.282);
+    border-radius: 5px;
+    width: 100%;
+    padding: 7px;
+    margin-top: 4px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+    margin: 10px 0;
+}
+
+input[type=checkbox] {
+    margin: 15px 0 25px 0;
+}
+
+button {
+    padding: 10px 20px; 
+    margin-top:  15px;
+    border-radius: 4px; 
+    background-color: red;
+    color:white;
+    border: none;
+    cursor:pointer;
+    font-size: 20px;
+    
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+h1[class=title] {
+    text-align: center;
+    background-color: rgb(163, 0, 0);
+    margin: 20px 400px 10px 400px;
+    border-radius: 10px;
+    color: white;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.829);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.829);
+}
+
