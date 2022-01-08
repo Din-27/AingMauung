@@ -48,7 +48,7 @@ function renderBlog() {
         </p>
 
         <div style="text-align: right;">
-            <span style="font-size: 13px; color: rgb(255, 0, 0)">
+            <span style="font-size: 13px; color: color: rgb(5, 5, 5)">
             ${getDistanceTime(blogs[i].postAt)}
             </span>
         </div>` 
@@ -82,7 +82,7 @@ function firstBlogContent() {
     </p>
 
     <div style="text-align: right;">
-        <span style="font-size: 13px; color: rgb(255, 0, 0)">
+        <span style="font-size: 13px; color: rgb(255, 255, 255)">
           1 day ago
         </span>
     </div>`

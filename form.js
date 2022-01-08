@@ -51,8 +51,7 @@ function submitData() {
 
     let a = document.createElement('a')
 
-    a.href = `mailto: ${emailReceiver}?subject${subject} &body=Hallo Nama Saya${name} ${email}
-    ${phone} ${subject} ${message}`
+    a.href = `mailto: ${emailReceiver}?subject${subject} &body=Hallo Nama Saya ${name} ${email} ${phone} ${subject} ${message}`
     a.click()
 
     var dataObject = {

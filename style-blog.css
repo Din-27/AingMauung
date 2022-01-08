@@ -1,6 +1,6 @@
 * {
     
-  font-family: cursive;
+  font-family: Arial, Helvetica, sans-serif
 }
 
 body {
@@ -15,7 +15,7 @@ nav {
   display: flex;
   background-position: left;
   height: 10vh;
-  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.829);
+  box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.542);
 }
 
 nav .kiri {
@@ -36,7 +36,7 @@ nav .kiri ul li a {
   color: rgb(255, 255, 255);
   padding: 12px;
   border-radius: 100%;
-  text-shadow:0px 0px 5px rgba(255, 255, 255, 0.829);
+  /* text-shadow:0px 0px 5px rgba(255, 255, 255, 0.829); */
 }
 
 
@@ -57,10 +57,13 @@ nav .kanan a {
 }
 
 .blog-form {
+  width: 100%;
   padding: 50px 0;
   display: flex;
   justify-content: center;
-  text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.829);
+  /* text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.829); */
+  /* box-shadow: 0px 0px 10px rgb(255, 255, 255); */
+  background-color: rgba(0, 0, 0, 0.186);
 }
 
 .blog-form .form-container {
@@ -70,11 +73,12 @@ nav .kanan a {
 .blog-form .form-container h1 {
   text-align: center;
   margin-bottom: 40px;
+  background-color:rgb(163, 0, 0);
 }
 
 .blog-form form label {
   font-size: 20px;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   text-align: left;
   margin: 5px auto;
   width:280px;
@@ -86,7 +90,7 @@ select {
   border-radius: 5px;
   width: 100%;
   font-size: 20px;
-  padding: 8px;
+  /* padding: 8px; */
   margin-top: 5px;
   margin: 10px 0;
   box-sizing: border-box;
@@ -106,14 +110,15 @@ select {
   padding: 8px;
   margin-top: 5px;
   margin-bottom: 20px;
-  background: rgba(255, 255, 255, 0.234);
   border: 1px solid rgba(116, 116, 116, 0.118);
   border-radius: 8px;
   cursor: pointer;
+  background: rgba(63, 63, 63, 0.974);
+  box-shadow: 0px 0px 40px black;
 }
 
 .blog-form form .input-blog-image-group label p {
-  text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.829)
+  text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.829);
 }
 
 .blog-form form .input-blog-image-group label {
@@ -121,7 +126,12 @@ select {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  box-shadow: 0px 0px 40px black;
+  box-shadow: 0px 0px 10px black;
+  border-radius: 5px;
+  font-size: 10px;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.234);
+
 }
 
 .blog-form form .button-group {
@@ -129,43 +139,46 @@ select {
 }
 
 .blog-form form button {
-  margin-top: 50px;
+  margin-top: 10px;
   padding: 8px 20px;
   font-size: 17px;
-  background-color: rgb(141, 0, 0);
+  background-color:  rgb(163, 0, 0);
   border-radius: 8px;
   border: none;
   color: #fff;
   cursor: pointer;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.829);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.829);
 }
 
-.blog hr {
+/* .blog hr {
   border: 1px solid rgba(116, 116, 116, 0.973);
   width: 80%;
   margin-right: auto;
   margin-left: auto;
-}
+} */
 
 .blog .blog-list {
-  margin-top: 80px;
-  margin-bottom: 80px;
+  padding: 100px;
   display: flex;
   align-items: center;
   flex-direction: column;
   font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.323);
+  box-shadow: 0px 0px 20px rgb(163, 163, 163); 
 }
 
 .blog .blog-list .blog-list-item {
-  width: 80%;
+  width: 800px;
   padding: 15px;
   margin-bottom: 20px;
-  border: 2px solid rgba(116, 116, 116, 0.973);
+  /* border: 2px solid rgba(116, 116, 116, 0.973); */
   border-radius: 8px;
   display: flex;
-  text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.829);
-  box-shadow: 0px 0px 10px rgb(255, 255, 255);
+  text-shadow: 0px 0px 25px rgba(0, 0, 0, 0.829);
+  box-shadow: 0px 0px 20px rgb(0, 0, 0);
+  background-color: rgb(24, 24, 24);
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.075);
 
 }
 
@@ -183,20 +196,23 @@ select {
 .blog .blog-list .blog-list-item .blog-content {
   padding-left: 20px;
   flex: 2;
-  text-shadow:0px 0px 5px rgba(255, 255, 255, 0.829);
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.829);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.829);
+  background-color: rgb(39, 39, 39);
+  color: white;
 }
 
 .blog .blog-list .btn-group {
   text-align: right;
   margin-bottom: 20px;
-  text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.829);
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.829);
 }
 
 .blog .blog-list .btn-group .btn-edit {
   padding: 5px 10px;
   border: 0;
   border-radius: 4px;
-  background: #ffe600;
+  background: #ffffff;
   text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.829);
 }
 
@@ -204,13 +220,15 @@ select {
   padding: 5px 10px;
   border: 0;
   border-radius: 4px;
-  background-color:rgb(163, 0, 0);
+  background-color: rgb(163, 0, 0);
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.829);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.829);
   color: #fff;
 }
 
 .blog .blog-list h1 a {
   text-decoration: none;
-  color: #000000;
+  color: #ffffff;
 }
 
 .blog .blog-list .detail-blog-content {
@@ -239,7 +257,7 @@ select {
   text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.829);
   box-shadow: 0px 0px 10px rgb(255, 255, 255);
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.075);
+  background-color: rgba(235, 7, 7, 0.796);
 }
 
 .blog-detail-container img {
